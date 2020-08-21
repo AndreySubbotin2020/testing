@@ -1,0 +1,26 @@
+header {
+    color: $main-color;
+}
+
+h1 {
+    color: yellowgreen;
+    background-image: url("../../images/icons/TSementnyj-rastvor-720x478.jpg");
+}
+
+.new {
+    color: rgb(11, 40, 68);
+    display: flex;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    border-width: 1px;
+    
+    @media (max-width: 768px) {
+        width: 70px;
+    }
+}
+
+.class {
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
