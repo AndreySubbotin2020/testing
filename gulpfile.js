@@ -13,7 +13,7 @@ const sourcemaps = require('gulp-sourcemaps');//Рисует карты css
 const svgo = require('gulp-svgo');
 const svgSprite = require('gulp-svg-sprite');
 
-// Указываем компилятор имеено на nodejs
+// Указываем компилятору имеено на nodejs
 sass.compiler = require('node-sass'); 
 
 //очищаем папку dist после каждого изменения для последующего сохранения 
@@ -41,7 +41,7 @@ const styles  = [
     .pipe(concat('main.scss')) // склеиваем 
     .pipe(sassGlob()) // Импорт файлов
     .pipe(sass().on('error', sass.logError))
-    .pipe(px2rem()) // переводим в em для адаптива
+    /* .pipe(px2rem()) // переводим в em для адаптива */
     .pipe(autoprefixer(
         {overrideBrowserslist:
              ['last 4 versions'] })) 
@@ -82,11 +82,11 @@ const styles  = [
     });
 });
 
- //метод watch следит за изменениями в файлах ./src/styles/**/*.scss'
+ //метод watch следит за изменениями в файлах ./src/styles/**/*.scss' 
  watch('./src/styles/**/*.scss', series("styles")); // При изменении перезапускает и следит
  watch('src/*.html', series("copy:html")); 
  watch('./src/images/icons/*.svg', series("icons")); 
 
- // Запуск по умолчанию соблюдаем последовательность дополняемых задач
+ // Запуск по дефолту соблюдаем выполняемых  задач
  task("default", series("clean", "copy:html", "styles", "icons", "server"));
     
