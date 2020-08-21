@@ -12,6 +12,7 @@ const cleanCSS = require('gulp-clean-css'); // Сжимаем файлы Мин�
 const sourcemaps = require('gulp-sourcemaps');//Рисует карты css
 const svgo = require('gulp-svgo');
 const svgSprite = require('gulp-svg-sprite');
+/* const spritesmith = require('gulp.spritesmith'); */
 
 // Указываем компилятору имеено на nodejs
 sass.compiler = require('node-sass'); 
@@ -28,7 +29,7 @@ task('clean', () => {
     .pipe(reload({stream: true}));
  });
 
-//Подключаем сss зависемые файлы и склеиваем 
+//Подключаем сss зависемые файлы normalize склеиваем 
 const styles  = [
     "node_modules/normalize.css/normalize.css",
     "src/styles/main.scss"
@@ -72,7 +73,7 @@ const styles  = [
     }))
     .pipe(dest("dist/images/icons")); 
  });
-
+ 
  //browser-sync запуск сервера
  task('server', () => {
     browserSync.init({
