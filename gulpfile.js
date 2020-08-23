@@ -7,12 +7,13 @@ const reload = browserSync.reload //Перезагрузка
 const sassGlob = require('gulp-sass-glob');
 const autoprefixer = require('gulp-autoprefixer');
 /* const px2rem = require('gulp-smile-px2rem'); // Переводим в rem */
-const gcmq = require('gulp-group-css-media-queries');
+/* const gcmq = require('gulp-group-css-media-queries'); */
 const cleanCSS = require('gulp-clean-css'); // Сжимаем файлы Минификация
 const sourcemaps = require('gulp-sourcemaps');//Рисует карты css
 const svgo = require('gulp-svgo');
 const svgSprite = require('gulp-svg-sprite');
-/* const spritesmith = require('gulp.spritesmith'); */
+const spritesmith = require('gulp.spritesmith');
+const gulp = require('gulp');
 
 // Указываем компилятору имеено на nodejs
 sass.compiler = require('node-sass'); 
@@ -49,7 +50,8 @@ const styles  = [
     /*.pipe(gcmq())*/  //!с soursmaps! Обьединяем одинаковые по параметрам медиа запросы
     .pipe(cleanCSS()) // Сжимаем файлы Минификация
     .pipe(sourcemaps.write('.')) // 
-    .pipe(dest("dist")); // Положили в папку
+    .pipe(dest("dist")) // Положили в папку
+    .pipe(reload({stream: true}));
  });
 
  //Обрабатываем img 
@@ -67,12 +69,22 @@ const styles  = [
      .pipe(svgSprite({
        mode: {
            symbol: {
-            sprite: "./dist/images/icons/sprite.svg"
+            sprite: "../sprite.svg"
            }
        }
     }))
     .pipe(dest("dist/images/icons")); 
  });
+
+ //Генерация png (sprite)
+ gulp.task('sprite', function () {
+    var spriteData = gulp.src('./src/images/icons/*.png')
+      .pipe(spritesmith({
+      imgName: 'sprite.png',
+      cssName: 'sprite.css'
+    }));
+    return spriteData.pipe(gulp.dest('./dist/images/icons/'));
+  });
  
  //browser-sync запуск сервера
  task('server', () => {
@@ -90,4 +102,4 @@ const styles  = [
 
  // Запуск по дефолту соблюдаем выполняемых  задач
  task("default", series("clean", "copy:html", "styles", "icons", "server"));
-    
+ gulp.task('default', gulp.parallel("sprite","server"));
