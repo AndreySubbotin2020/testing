@@ -14,8 +14,9 @@ const svgo = require('gulp-svgo');
 const svgSprite = require('gulp-svg-sprite');
 const spritesmith = require('gulp.spritesmith');
 const gulp = require('gulp');
+const fileinclude = require('gulp-file-include'); 
 
-// Указываем компилятору имеено на nodejs
+// Указываем компилятору имеено на node.js
 sass.compiler = require('node-sass'); 
 
 //очищаем папку dist после каждого изменения для последующего сохранения 
@@ -23,9 +24,17 @@ task('clean', () => {
     return src("dist/**/*", { read: false}).pipe(rm());
 });
 
+
+//Собираем файлы html в 1 include
+task('html', () => {
+    return gulp.src('./src/html/*.html')
+    .pipe(fileinclude({prefix: '@@'}))
+    .pipe(gulp.dest('./dist/'))
+});
+
 //Копируем готовые файлы
  task("copy:html", () => {
-    return src('src/*.html')
+    return src('src/**/*.html')
     .pipe(dest("dist"))
     .pipe(reload({stream: true}));
  });
@@ -51,7 +60,7 @@ const styles  = [
     .pipe(cleanCSS()) // Сжимаем файлы Минификация
     .pipe(sourcemaps.write('.')) // 
     .pipe(dest("dist")) // Положили в папку
-    .pipe(reload({stream: true}));
+    .pipe(reload({stream: true})); // Перезагрузили только стили
  });
 
  //Обрабатываем img 
@@ -92,14 +101,15 @@ const styles  = [
         server: {
             baseDir: "./dist" //Указываем директорию где обрабатываются наши файлы
         }  
-    });
+    });  
 });
 
  //метод watch следит за изменениями в файлах ./src/styles/**/*.scss' 
  watch('./src/styles/**/*.scss', series("styles")); // При изменении перезапускает и следит
- watch('src/*.html', series("copy:html")); 
+ watch('src/**/*.html', series("html","copy:html")); 
  watch('./src/images/icons/*.svg', series("icons")); 
 
  // Запуск по дефолту соблюдаем выполняемых  задач
- task("default", series("clean", "copy:html", "styles", "icons", "server"));
- gulp.task('default', gulp.parallel("sprite","server"));
+ task("default", series("clean", "html", "copy:html", "styles", "icons", "server"));
+ 
+ gulp.task('default', gulp.parallel("sprite", "server"));
