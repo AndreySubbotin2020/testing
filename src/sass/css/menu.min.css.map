@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAC,CACF,UAAU,CAAE,oCAAoC,CAAG",
+    "sources": [
+        "../blocks/menu.sass"
+    ],
+    "names": [],
+    "file": "menu.min.css"
+}

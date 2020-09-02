@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/blocks/header.sass"],"names":[],"mappings":"AAAA,MACI,WAAA,IAIJ,cACI,MAAA,KACA,OAAA,KAGJ,OACI,QAAA,KACA,WAAA","file":"header.css","sourcesContent":[".menu {\n    background: red; }\n\n\n\n.contacts img {\n    width: 20px;\n    height: 20px; }\n\n\nheader {\n    padding: 50px;\n    background: black; }\n\n\n\n\n\n\n\n\n"]}
