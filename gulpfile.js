@@ -13,7 +13,6 @@ const spritesmith = require('gulp.spritesmith');
 const gulp = require('gulp');
 const fileinclude = require('gulp-file-include'); 
 const imagemin = require('gulp-imagemin');
-/* const modifyCssUrls = require('gulp-modify-css-urls'); */
 
 // Указываем компилятору имеено на node.js
 sass.compiler = require('node-sass'); 
@@ -37,8 +36,14 @@ task('html', () => {
     .pipe(reload({stream: true}));
  });
 
-//Обрабатываем стили
- task("styles", () => { 
+ task("copy:fonts", () => {
+    return src('src/fonts/**/*.{ttf,otf,eot,woff}')
+    .pipe(dest("./dist/fonts/"))
+    .pipe(reload({stream: true}));
+ });
+ 
+//Обрабатываем sass - минификация
+ task("sass", () => { 
     return src('src/sass/*.sass') // обрабатываем массив
     .pipe(sourcemaps.init()) //  инициализируем файлы
     .pipe(sassGlob()) // Импорт файлов
@@ -47,12 +52,21 @@ task('html', () => {
         {overrideBrowserslist:
              ['last 4 versions'] })) 
     .pipe(cleanCSS()) // Сжимаем файлы Минификация
-    .pipe(sourcemaps.write('.')) // 
-    .pipe(dest("dist/css")) // Положили в папку
+    .pipe(sourcemaps.write('.')) 
+    .pipe(dest("dist/")) // Положили в папку
     .pipe(reload({stream: true})); // Перезагрузили только стили
  });
 
- //Обрабатываем svg
+ //Исходный css
+ task("css", () => {
+    return src('src/sass/*.sass')
+    .pipe(sassGlob()) // Импорт файлов
+    .pipe(sass().on('error', sass.logError))
+    .pipe(dest("./dist/css/sourse_css")) // Положили в папку
+    .pipe(reload({stream: true})); 
+ });
+
+ //Обрабатываем svg sprite
  task("svgSprite", () => {
      return src('src/images/icons/*.svg')
      .pipe(
@@ -81,7 +95,7 @@ task('html', () => {
       imgName: 'sprite_icons.png',
       cssName: 'sprite.css'
     }));
-    return spriteData.pipe(gulp.dest('./dist/images/sprite/'));
+    return spriteData.pipe(gulp.dest('./dist/sprite/'));
   });
 
  //Генерация png sprite_img (sprite)
@@ -91,21 +105,22 @@ task('html', () => {
       imgName: 'sprite_img.png',
       cssName: 'sprite.css'
     }));
-    return spriteData.pipe(gulp.dest('./dist/images/sprite/'));
+    return spriteData.pipe(gulp.dest('./dist/sprite/'));
   });
 
+  //Сжимаем img
   gulp.task('image_min', function () {
     return gulp.src("src/images/**/*")
         .pipe(imagemin())
         .pipe(gulp.dest("./dist/images/"));
 });
 
+ //Сжимаем icons
 gulp.task('icons_min', function () {
   return gulp.src("src/icons/**/*")
       .pipe(imagemin())
       .pipe(gulp.dest("./dist/icons/"));
 });
-
 
  //browser-sync запуск сервера
  task('server', () => {
@@ -116,12 +131,13 @@ gulp.task('icons_min', function () {
     });  
 });
 
- //метод watch следит за изменениями в файлах ./src/styles/**/*.scss' 
- watch('./src/**/*.sass', series("styles")); // При изменении перезапускает и следит
+ //метод watch следит за изменениями в файлах sass
+ // При изменении перезапускает
+ watch('./src/**/*.sass', series("sass", "css")); 
  watch('src/**/*.html', series("html","copy:html")); 
  watch('./src/images/icons/*.svg', series("svgSprite")); 
+ watch('src/fonts/**/*.{ttf,otf}', series("copy:fonts")); 
 
- // Запуск по дефолту соблюдаем выполняемых  задач
- task("default", series("clean", "html", "copy:html", "styles", "svgSprite", "server"));
- 
+ // Запуск по дефолту соблюдаем последовательность выполняемых  задач
+ task("default", series("clean", "html", "copy:html", "sass", "css", "copy:fonts", "svgSprite", "server"));
  gulp.task('default', gulp.parallel( "server", "sprite_icons", "sprite_img", "image_min", "icons_min"));

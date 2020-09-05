@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Helvetica Neue Cyr Thin';
+  src: url("../fonts/HelveticaNeueCyr-Thin.eot");
+  src: url("../fonts/HelveticaNeueCyr-Thin.eot") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Thin.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Thin.ttf") format("truetype");
+  src: url("../fonts/HelveticaNeueCyr-Black.eot");
+  src: url("../fonts/HelveticaNeueCyr-Black.eot") format("embedded-opentype");
+  src: url("../fonts/HelveticaNeueCyr-Black.woff") format("woff");
+  src: url("../fonts/HelveticaNeueCyr-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto Condensed Light';
+  src: url("../fonts/RobotoCondensed-Bold.eot");
+  src: url("../fonts/RobotoCondensed-Bold.eot") format("embedded-opentype");
+  src: url("../fonts/RobotoCondensed-Bold.woff") format("woff");
+  src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+header {
+  background: url("../../images/main_picture.png");
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Helvetica Neue Cyr Thin'; }
+
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 20px; }
+
+.contacts_img-adress {
+  width: 20px;
+  height: 28px;
+  margin: 0 11px 11px 0; }
+
+.contacts_img-email {
+  width: 25px;
+  height: 25px;
+  margin: 0 11px 11px 0; }
+
+.contacts_img-phone {
+  width: 25px;
+  height: 25px;
+  margin: 0 11px 11px 0; }
+
+.contacts_link {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.9px; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  margin-top: 38px;
+  list-style-type: none;
+  box-shadow: 0 5px 4px 1px rgba(1, 1, 1, 0.15);
+  background-color: #ffffff; }
+
+.menu_logo-img {
+  padding: 0 0 52px 52px; }
+
+.menu_burger-img {
+  background-color: #000000; }
+
+.menu_link {
+  height: 20px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.34px;
+  font-family: 'Roboto Condensed Light'; }
+
+.promo {
+  height: 33px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 4.69px;
+  font-family: 'Helvetica Neue Cyr Thin';
+  text-align: center;
+  padding: 70px 0 28px 0; }
