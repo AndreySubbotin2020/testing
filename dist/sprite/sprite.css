@@ -18,157 +18,169 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-beton {
   background-image: url(sprite_img.png);
-  background-position: -3100px -600px;
+  background-position: -3070px -2400px;
   width: 560px;
   height: 281px;
 }
 .icon-line {
   background-image: url(sprite_img.png);
-  background-position: -3660px -845px;
+  background-position: -3630px -2645px;
   width: 100px;
   height: 4px;
 }
 .icon-properties_betona {
   background-image: url(sprite_img.png);
-  background-position: -3100px -881px;
+  background-position: -3070px -2681px;
   width: 560px;
   height: 281px;
 }
 .icon-whatIs_beton {
   background-image: url(sprite_img.png);
-  background-position: -2540px -600px;
+  background-position: -2510px -2400px;
   width: 560px;
   height: 580px;
 }
 .icon-burger_main {
   background-image: url(sprite_img.png);
-  background-position: -3310px -1430px;
+  background-position: -3280px -3230px;
   width: 110px;
   height: 110px;
 }
 .icon-logo_main {
   background-image: url(sprite_img.png);
-  background-position: -3150px -1540px;
+  background-position: -3460px -3340px;
   width: 254px;
   height: 139px;
 }
 .icon-main_picture {
   background-image: url(sprite_img.png);
-  background-position: 0px -900px;
+  background-position: -1920px -900px;
   width: 1920px;
   height: 900px;
 }
 .icon-map {
   background-image: url(sprite_img.png);
-  background-position: -1950px 0px;
+  background-position: -1920px -1800px;
   width: 1920px;
   height: 600px;
 }
 .icon-a1 {
   background-image: url(sprite_img.png);
-  background-position: 0px -1800px;
+  background-position: -1920px -3580px;
   width: 160px;
   height: 208px;
 }
 .icon-a2 {
   background-image: url(sprite_img.png);
-  background-position: -3660px -600px;
+  background-position: -3630px -2400px;
   width: 207px;
   height: 245px;
 }
 .icon-a3 {
   background-image: url(sprite_img.png);
-  background-position: -3404px -1540px;
+  background-position: -2246px -3580px;
   width: 216px;
   height: 139px;
 }
 .icon-a4 {
   background-image: url(sprite_img.png);
-  background-position: -3660px -881px;
+  background-position: -3630px -2681px;
   width: 201px;
   height: 201px;
 }
 .icon-a5 {
   background-image: url(sprite_img.png);
-  background-position: -3610px -1190px;
+  background-position: -3580px -2990px;
   width: 247px;
   height: 172px;
 }
 .icon-a6 {
   background-image: url(sprite_img.png);
-  background-position: -160px -1800px;
+  background-position: -2080px -3580px;
   width: 166px;
   height: 187px;
 }
 .icon-photo_calculation {
   background-image: url(sprite_img.png);
-  background-position: -3310px -1190px;
+  background-position: -3280px -2990px;
   width: 300px;
   height: 240px;
 }
 .icon-photo_coming {
   background-image: url(sprite_img.png);
-  background-position: -1950px -1540px;
+  background-position: -1920px -3340px;
   width: 300px;
   height: 240px;
 }
 .icon-photo_payment {
   background-image: url(sprite_img.png);
-  background-position: -2250px -1540px;
+  background-position: -2220px -3340px;
   width: 300px;
   height: 240px;
 }
 .icon-photo_production {
   background-image: url(sprite_img.png);
-  background-position: -2550px -1540px;
+  background-position: -2520px -3340px;
   width: 300px;
   height: 240px;
 }
 .icon-photo_request {
   background-image: url(sprite_img.png);
-  background-position: -2850px -1540px;
+  background-position: -2820px -3340px;
   width: 300px;
   height: 240px;
 }
 .icon-photo_work {
   background-image: url(sprite_img.png);
-  background-position: 0px 0px;
+  background-position: -1920px 0px;
   width: 1950px;
   height: 900px;
 }
 .icon-photo_about_Us {
   background-image: url(sprite_img.png);
-  background-position: -1950px -600px;
+  background-position: -1920px -2400px;
   width: 590px;
   height: 590px;
 }
 .icon-cherta {
   background-image: url(sprite_img.png);
-  background-position: -3760px -845px;
+  background-position: -3730px -2645px;
   width: 100px;
   height: 3px;
 }
 .icon-foto_kamienie {
   background-image: url(sprite_img.png);
-  background-position: -1950px -1190px;
+  background-position: -1920px -2990px;
   width: 340px;
   height: 350px;
 }
 .icon-photo_beton {
   background-image: url(sprite_img.png);
-  background-position: -2290px -1190px;
+  background-position: -2260px -2990px;
   width: 340px;
   height: 350px;
 }
 .icon-photo_grout {
   background-image: url(sprite_img.png);
-  background-position: -2630px -1190px;
+  background-position: -2600px -2990px;
   width: 340px;
   height: 350px;
 }
 .icon-photo_ring {
   background-image: url(sprite_img.png);
-  background-position: -2970px -1190px;
+  background-position: -2940px -2990px;
   width: 340px;
   height: 350px;
+}
+.icon-plashka {
+  background-image: url(sprite_img.png);
+  background-position: -3120px -3340px;
+  width: 340px;
+  height: 160px;
+}
+.icon-Фон {
+  background-image: url(sprite_img.png);
+  background-position: 0px 0px;
+  width: 1920px;
+  height: 7000px;
 }
