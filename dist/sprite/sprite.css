@@ -42,13 +42,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-burger_main {
   background-image: url(sprite_img.png);
-  background-position: -3280px -3230px;
+  background-position: -2246px -3340px;
   width: 110px;
   height: 110px;
 }
 .icon-logo_main {
   background-image: url(sprite_img.png);
-  background-position: -3460px -3340px;
+  background-position: -3527px -3150px;
   width: 254px;
   height: 139px;
 }
@@ -66,7 +66,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-a1 {
   background-image: url(sprite_img.png);
-  background-position: -1920px -3580px;
+  background-position: -1920px -3340px;
   width: 160px;
   height: 208px;
 }
@@ -78,7 +78,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-a3 {
   background-image: url(sprite_img.png);
-  background-position: -2246px -3580px;
+  background-position: -3620px -2990px;
   width: 216px;
   height: 139px;
 }
@@ -90,51 +90,27 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-a5 {
   background-image: url(sprite_img.png);
-  background-position: -3580px -2990px;
+  background-position: -3280px -3150px;
   width: 247px;
   height: 172px;
 }
 .icon-a6 {
   background-image: url(sprite_img.png);
-  background-position: -2080px -3580px;
+  background-position: -2080px -3340px;
   width: 166px;
   height: 187px;
 }
-.icon-photo_calculation {
-  background-image: url(sprite_img.png);
-  background-position: -3280px -2990px;
-  width: 300px;
-  height: 240px;
-}
-.icon-photo_coming {
-  background-image: url(sprite_img.png);
-  background-position: -1920px -3340px;
-  width: 300px;
-  height: 240px;
-}
-.icon-photo_payment {
-  background-image: url(sprite_img.png);
-  background-position: -2220px -3340px;
-  width: 300px;
-  height: 240px;
-}
-.icon-photo_production {
-  background-image: url(sprite_img.png);
-  background-position: -2520px -3340px;
-  width: 300px;
-  height: 240px;
-}
-.icon-photo_request {
-  background-image: url(sprite_img.png);
-  background-position: -2820px -3340px;
-  width: 300px;
-  height: 240px;
-}
-.icon-photo_work {
+.icon-main_work {
   background-image: url(sprite_img.png);
   background-position: -1920px 0px;
   width: 1950px;
   height: 900px;
+}
+.icon-znak_zaayvka {
+  background-image: url(sprite_img.png);
+  background-position: -3630px -2882px;
+  width: 78px;
+  height: 78px;
 }
 .icon-photo_about_Us {
   background-image: url(sprite_img.png);
@@ -174,7 +150,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-plashka {
   background-image: url(sprite_img.png);
-  background-position: -3120px -3340px;
+  background-position: -3280px -2990px;
   width: 340px;
   height: 160px;
 }

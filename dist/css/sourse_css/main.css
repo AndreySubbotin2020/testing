@@ -140,7 +140,8 @@ header {
   list-style-type: none; }
 
 .contacts_img {
-  margin: 0 7px 11px; }
+  margin: 0 10px 0  0;
+  display: inline-block; }
 
 .contacts_item-phone {
   text-align: right;
@@ -157,7 +158,8 @@ header {
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.9px; }
+  letter-spacing: 0.9px;
+  padding-bottom: 30px; }
 
 .contacts a {
   text-decoration: none; }
@@ -183,7 +185,8 @@ header {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1.34px;
-  font-family: 'Roboto Condensed Light'; }
+  font-family: 'Roboto Condensed Light';
+  text-decoration: none; }
 
 .promo_production {
   margin: 136px auto 0;
@@ -251,13 +254,71 @@ header {
   padding-top: 15px;
   margin-top: 100px; }
 
+.work {
+  background: url("../../images/ourWork/main_work.png");
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 900px;
+  padding: 94px 0 149px 0; }
+
+.work_block {
+  display: flex; }
+
+.work_info {
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Helvetica Neue Cyr Black';
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2.7px; }
+
+.work_line-min {
+  width: 100px;
+  height: 3px;
+  background-color: #fedc00;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 82px; }
+
+.work_block-box {
+  margin-right: 40px;
+  margin-bottom: 40px; }
+
+.work_block-ramka {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 241px;
+  border: 2px solid #fedc00;
+  padding: 25px 0 45px 0; }
+
+.work_line-max {
+  width: 200px;
+  height: 3px;
+  background-color: #fedc00;
+  margin: 0 auto; }
+
+.work_block-icons {
+  padding-bottom: 33px; }
+
+.work_lable {
+  height: 23px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-top: 20px; }
+
 .product {
   min-height: 890px;
   background: url("../../images/productCatalog/Фон.png"); }
 
 .product_catalog {
   padding-top: 103px;
-  padding-bottom: 103px; }
+  padding-bottom: 146px; }
 
 .product_list {
   height: 34px;
@@ -308,11 +369,11 @@ header {
 
 .product_block {
   width: 100%;
-  margin-top: 228px;
+  margin-top: 232px;
   background: rgba(154, 155, 154, 0.8); }
 
 .product_block-box {
-  margin: 0 0 0 53px; }
+  margin: 36px 0 0 53px; }
 
 .product_name {
   color: #000000;
@@ -327,13 +388,14 @@ header {
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 20px;
   font-weight: 500;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin-bottom: 43px; }
 
 .product_line {
   width: 100px;
   height: 3px;
   background-color: #fedc00;
-  margin: 23px 0 21px 1px; }
+  margin: 11px 0 21px 1px; }
 
 .product_block-btn {
   display: flex;

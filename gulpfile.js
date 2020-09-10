@@ -134,7 +134,7 @@ gulp.task('icons_min', function () {
  //метод watch следит за изменениями в файлах sass
  // При изменении перезапускает
  watch('./src/**/*.sass', series("sass", "css")); 
- watch('src/**/*.html', series("html","copy:html")); 
+ watch('src/**/*.html', series("html", "copy:html")); 
  watch('./src/images/icons/*.svg', series("svgSprite")); 
  watch('src/fonts/**/*.{ttf,otf}', series("copy:fonts")); 
 
