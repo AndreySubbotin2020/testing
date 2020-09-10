@@ -273,34 +273,46 @@ header {
 
 .product_background-1 {
   background: url("../../images/productCatalog/photo_beton.png");
-  width: 340px;
-  height: 350px; }
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 350px; }
 
 .product_background-2 {
   background: url("../../images/productCatalog/photo_grout.png");
-  width: 340px;
-  height: 350px; }
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 350px; }
 
 .product_background-3 {
   background: url("../../images/productCatalog/photo_ring.png");
-  width: 340px;
-  height: 350px; }
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 350px; }
 
 .product_background-4 {
   background: url("../../images/productCatalog/foto_kamienie.png");
-  width: 340px;
-  height: 350px; }
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 350px; }
 
 .product_info {
-  width: 340px;
-  height: 160px;
-  background: rgba(154, 155, 154, 0.8);
-  position: absolute;
-  margin-top: 190px; }
+  display: flex; }
 
 .product_block {
-  margin-top: 32px;
-  margin-left: 78px; }
+  width: 100%;
+  margin-top: 228px;
+  background: rgba(154, 155, 154, 0.8); }
+
+.product_block-box {
+  margin: 0 0 0 53px; }
 
 .product_name {
   color: #000000;
