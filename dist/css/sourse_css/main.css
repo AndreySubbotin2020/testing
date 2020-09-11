@@ -139,9 +139,12 @@ header {
   justify-content: space-around;
   list-style-type: none; }
 
+.contacts_list {
+  display: flex; }
+
 .contacts_img {
-  margin: 0 10px 0  0;
-  display: inline-block; }
+  display: inline-block;
+  padding-right: 5px; }
 
 .contacts_item-phone {
   text-align: right;
@@ -154,15 +157,15 @@ header {
   text-align: center; }
 
 .contacts_link {
-  display: inline-block;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.9px;
-  padding-bottom: 30px; }
+  text-decoration: none;
+  line-height: 10px; }
 
-.contacts a {
-  text-decoration: none; }
+.menu {
+  padding-top: 30px; }
 
 .menu_box {
   margin: 0 5px; }
@@ -290,10 +293,8 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 300px;
-  height: 241px;
   border: 2px solid #fedc00;
-  padding: 25px 0 45px 0; }
+  padding: 26px 0 45px 0; }
 
 .work_line-max {
   width: 200px;
@@ -302,7 +303,10 @@ header {
   margin: 0 auto; }
 
 .work_block-icons {
-  padding-bottom: 33px; }
+  padding: 0 33px 15px; }
+
+.work_img-1 {
+  padding: 5px; }
 
 .work_lable {
   height: 23px;
@@ -310,7 +314,12 @@ header {
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 3px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  /*----------------------*/ }
+
+.work_detail {
+  display: flex;
+  justify-content: space-between; }
 
 .product {
   min-height: 890px;
