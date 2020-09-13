@@ -1,4 +1,45 @@
 @charset "UTF-8";
+.aboutUs {
+  background: url("../../images/aboutUs/Фон.png");
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 900px; }
+
+.aboutUs_title {
+  height: 28px;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2.7px;
+  font-family: 'Helvetica Neue Cyr Bold';
+  margin: 140px 0 0 0;
+  text-align: center; }
+
+.aboutUs_line {
+  width: 100px;
+  height: 3px;
+  background-color: #fedc00;
+  margin: 0 auto;
+  margin-top: 40px; }
+
+.aboutUs_info {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 103px; }
+
+.aboutUs_content {
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Thin';
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  margin-right: 84px;
+  width: 644px; }
+
+.aboutUs_text {
+  margin-bottom: 31px; }
+
 @font-face {
   font-family: 'Helvetica Neue Cyr Black';
   src: url("../fonts/HelveticaNeueCyr-Black.eot");
@@ -161,8 +202,7 @@ header {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.9px;
-  text-decoration: none;
-  line-height: 10px; }
+  text-decoration: none; }
 
 .menu {
   padding-top: 30px; }
@@ -229,7 +269,7 @@ header {
   margin-top: 40px; }
 
 .promo_img-punkt {
-  padding-bottom: 6px;
+  padding-bottom: 2px;
   margin-right: 14px; }
 
 .promo_operating-mode {
@@ -254,8 +294,9 @@ header {
   font-weight: 40000;
   letter-spacing: 1px;
   text-align: center;
-  padding-top: 20px;
-  margin-top: 100px; }
+  margin-top: 100px;
+  outline: none;
+  border: none; }
 
 .work {
   background: url("../../images/ourWork/main_work.png");
@@ -313,23 +354,23 @@ header {
   letter-spacing: 3px;
   margin-top: 20px;
   font-family: 'Helvetica Neue Cyr Thin';
-  /*----------------------*/ }
+  /*-----------work_detail-----------*/ }
 
 .work_detail {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .work_detail-block {
-  margin: 0 135px 149px 202px;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  margin: 0 auto; }
 
 .work_detail-form {
   display: flex;
   justify-content: center; }
 
 .work_detail-info {
-  margin: 30px 50px 38px; }
+  margin: 33px 48px; }
 
 .work_detail-lable {
   height: 19px;
@@ -337,7 +378,8 @@ header {
   font-family: 'Helvetica Neue Cyr Thin';
   font-size: 20px;
   font-weight: 400;
-  letter-spacing: 1.99px; }
+  letter-spacing: 1.99px;
+  margin: 0 auto; }
 
 .work_detail-name {
   height: 15px;
@@ -347,7 +389,9 @@ header {
   font-weight: 400;
   letter-spacing: 1.99px;
   margin: 0 0 19px 0;
-  opacity: 0.5; }
+  background: transparent;
+  border: none;
+  outline: none; }
 
 .work_detail-phone {
   height: 15px;
@@ -357,7 +401,9 @@ header {
   font-weight: 400;
   letter-spacing: 1.99px;
   margin: 0 0 19px 0;
-  opacity: 0.5; }
+  background: transparent;
+  border: none;
+  outline: none; }
 
 .work_details-line {
   width: 242px;
@@ -372,22 +418,25 @@ header {
   font-family: 'Helvetica Neue Cyr Thin';
   font-size: 12px;
   font-weight: 400;
-  letter-spacing: 1.19px; }
+  letter-spacing: 1.19px;
+  text-align: center;
+  margin: 0 auto; }
 
 .work_detail-btn {
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
   width: 320px;
   height: 60px;
   background-color: #fedc00;
   color: #000000;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 40000;
   letter-spacing: 1px;
   text-align: center;
-  padding-top: 20px;
-  margin-top: 20px; }
+  outline: none;
+  border: none; }
 
 .product {
   min-height: 890px;
@@ -480,6 +529,8 @@ header {
   padding: 83px 0 86px 0; }
 
 .product_btn-info {
+  display: block;
+  margin: 83px auto 86px;
   height: 19px;
   color: #fedc00;
   font-family: 'Helvetica Neue Cyr Bold';
@@ -491,7 +542,8 @@ header {
   height: 60px;
   border: 3px solid #fedc00;
   background-color: #ffffff;
-  padding: 10px; }
+  padding: 10px;
+  outline: none; }
 
 * {
   box-sizing: border-box;

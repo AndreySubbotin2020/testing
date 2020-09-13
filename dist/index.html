@@ -17,15 +17,15 @@
     <div class="row">
       <ul class="contacts col-xl-12">
         <li class="col-xl-5 contacts_item-adress">
-          <img class="contacts_img" src="../../icons/iconAdress.png" alt="adress">
+          <div class="contacts_img"><img src="../../icons/iconAdress.png" alt="adress"></div>
           <a href="#" class="contacts_link">ул.Сибирская 3, пос.Монтажный</a>
         </li>
         <li class="col-xl-4 contacts_item-email">
-          <img class="contacts_img" src="../../icons/iconEmail.png" alt="email">
+          <div class="contacts_img"><img src="../../icons/iconEmail.png" alt="email"></div>
           <a href="#" class="contacts_link">penzabeton@gmail.com</a>
         </li>
         <li class="col-xl-3 contacts_item-phone">
-          <img class="contacts_img" src="../../icons/iconPhone.png" alt="phone">
+          <div class="contacts_img"><img src="../../icons/iconPhone.png" alt="phone"></div>
           <a href="#" class="contacts_link">8(8412)250-222</a>
         </li>
       </ul>
@@ -38,14 +38,14 @@
         <div class="menu_box col-xl-12">
           <ul class="menu_navigations">
             <img class="menu_logo" src="../../images/logo/logo_main.png" alt="">
-            <a href="" class="menu_link">ГЛАВНАЯ<li class="menu_item"></a></li>
-            <a href="" class="menu_link">БЕТОН<li class="menu_item"></a></li>
-            <a href="" class="menu_link">РАСТВОР<li class="menu_item"></a></li>
-            <a href="" class="menu_link">ЖБИ<li class="menu_item"></a></li>
-            <a href="" class="menu_link">ЩЕБЕНЬ<li class="menu_item"></a></li>
-            <a href="" class="menu_link">ПРАЙС-ЛИСТ<li class="menu_item"></a></li>
-            <a href="" class="menu_link">ВАКАНСИИ<li class="menu_item"></a></li>
-            <a href="" class="menu_link">КОНТАКТЫ<li class="menu_item"></a></li>
+            <a href="" class="menu_link">ГЛАВНАЯ<li class="menu_item"></li></a>
+            <a href="" class="menu_link">БЕТОН<li class="menu_item"></li></a>
+            <a href="" class="menu_link">РАСТВОР<li class="menu_item"></li></a>
+            <a href="" class="menu_link">ЖБИ<li class="menu_item"></li></a>
+            <a href="" class="menu_link">ЩЕБЕНЬ<li class="menu_item"></li></a>
+            <a href="" class="menu_link">ПРАЙС-ЛИСТ<li class="menu_item"></li></a>
+            <a href="" class="menu_link">ВАКАНСИИ<li class="menu_item"></li></a>
+            <a href="" class="menu_link">КОНТАКТЫ<li class="menu_item"></li></a>
             <img class="menu_burger-img" src="../../images/logo/burger_main.png" alt="">
           </ul>
         </div>
@@ -75,13 +75,12 @@
           </div>
 
           <div class="promo_operating">
-            <p class="promo_operating-mode">
-              <img class="promo_img-punkt" src="../../icons/punkt.png" alt="">
-              Круглосуточный режим работы
+            <p class="promo_operating-mode"><img class="promo_img-punkt" src="../../icons/punkt.png" alt="">
+               Круглосуточный режим работы
             </p>
           </div>
 
-          <div class="promo_btn">ЗАКАЗАТЬ ЗВОНОК</div>
+          <button class="promo_btn">ЗАКАЗАТЬ ЗВОНОК</button>
 
         </div>
       </div>
@@ -174,28 +173,20 @@
 
     </div>
 
-    <div class="product_btn">
-      <div class="container">
-        <div class="row">
-          <div class="product_block-btn col-xl-12">
-            <div class="product_btn-info">ПОДРОБНЕЕ</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+    <button class="product_btn-info col-xl-12">ПОДРОБНЕЕ</button>    
+
   </div>
   </div>
 </section>
     <section class="work">
     <div class="container">
-            <div class="row">
-                <div class="work_title col-xl-12">
-                    <h2 class="work_info">КАК МЫ РАБОТАЕМ</h2>
-                    <div class="work_line-min"></div>
-                </div>
+        <div class="row">
+            <div class="work_title col-xl-12">
+                <h2 class="work_info">КАК МЫ РАБОТАЕМ</h2>
+                <div class="work_line-min"></div>
             </div>
-       
+        </div>
+
         <!-- /*work_block*/ -->
 
         <div class="container">
@@ -235,14 +226,15 @@
                     <div class="work_block-box  col-xl-3">
                         <div class="work_block-ramka">
                             <div class="work_block-icons">
-                                <img class="work_img-4" src="../../images/ourWork/znak_proizvodstvo.png"alt="Производство">
+                                <img class="work_img-4" src="../../images/ourWork/znak_proizvodstvo.png"
+                                    alt="Производство">
                             </div>
                             <div class="work_line-max"></div>
                             <div class="work_lable">Производство</div>
                         </div>
                     </div>
 
-                    
+
 
                 </div>
             </div>
@@ -265,28 +257,84 @@
                         </div>
                     </div>
 
-                    <div class="work_detail-block col-xl-9">
+                    <div class="work_detail-block col-xl-8">
                         <h3 class="work_detail-lable">Узнайте подробнее о нашей работе, заказав обратный звонок </h3>
-                        
-                        <div class="work_detail-form">
 
-                            <div class="work_detail-info">
-                                <h4 class="work_detail-name">ИМЯ</h4>
+                        <form class="work_detail-box" action="">
+                             <div class="work_detail-form">
+
+                                <div class="work_detail-info col-xl-4">
+                                    <input class="work_detail-name" type="text" placeholder="ИМЯ">
+                                    <div class="work_details-line"></div>
+                                </div>
+                                <div class="work_detail-info col-xl-4">
+                                    <input class="work_detail-phone" type="tel" placeholder="ТЕЛЕФОН">
+                                    <div class="work_details-line"></div>
+                                </div>
+
+                            </div>
+                          <div class="work_detail-confidentiality">Нажимая кнопку “Заказать звонок”, Вы соглашаетесь с  Политикой конфиденциальности </div>
+                         <button class="work_detail-btn">ЗАКАЗАТЬ ЗВОНОК</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- <div class="work_detail-form ">
+
+                            <div class="work_detail-info col-xl-4">
+                                <div class="work_detail-name">ИМЯ</div>
                                 <div class="work_details-line"></div>
                             </div>
 
                             <div class="work_detail-info">
                                 <h4 class="work_detail-phone">ТЕЛЕФОН</h4>
                                 <div class="work_details-line"></div>
-                            </div>
+                            </div> -->
+    <section class="aboutUs">
+    <div class="container">
+        <h2 class="aboutUs_title">О НАС</h2>
+        <div class="aboutUs_line"></div>
 
-                        </div>
-                        <p class="work_detail-confidentiality">Нажимая кнопку “Заказать звонок”, Вы соглашаетесь с Политикой конфиденциальности </p>
-                        <div class="work_detail-btn">ЗАКАЗАТЬ ЗВОНОК</div>
-                    </div>
-                </div>
+        <div class="row">
+        <article class="aboutUs_info col-xl-12">
+
+            <div class="aboutUs_content col-xl-5">
+                <p class="aboutUs_text">Бетон в Пензе на выгодных условиях предлагает купить <br>ООО «ПензаБетон».
+                <br>ООО «ПензаБетон» активно функционирует на Пензенском<br> внутреннем рынке как надежный поставщик
+                высокотехнологичного товарного бетона и цементного раствора</p>
+              
+                <p class="aboutUs_text"> Для производства используется оборудование фирмы ELKON производительностью 60 м3 готовых
+                растворо-бетонных смесей <br>в час. Высокая производительность завода позволяет в <br>короткие сроки
+                удовлетворять потребности в бетоне и растворе практически любой строительной площадки. Электронное
+                дозирование обеспечивает стабильно высокое качество выпускаемой продукции</p>
+              
+                <p class="aboutUs_text"> Фирма владеет собственным парком автобетоносмесителей, оснащенных новейшей системой спутникового
+                слежения. <br>Последняя позволяет контролировать процесс доставки и гарантировать своевременность и полноту
+                поставок продукции к стройплощадке в подходящее для заказчика время</p>
+
+                <p class="aboutUs_text">Помимо этого, на производстве размещена собственная лаборатория, эффективно осуществляющая контроль всех
+                компонентов, используемых для формирования смесей.</p>
+
+                <p class="aboutUs_text">Мы являемся не только производителями товарного бетона <br>(бетон ГОСТ) и цементных растворов, вы также
+                можете заказать <br>у нас щебень гранитный различных фракций.</p>
             </div>
-        </div>
+
+            <div class="aboutUs_photo col-xl-7">
+                <img src="../../images/aboutUs/photo_about_Us.png" alt="О нас">
+            </div>
+
+        </article>       
+    </div>
     </div>
 
 </section>
