@@ -76,6 +76,33 @@
   font-weight: normal;
   font-style: normal; }
 
+.goodKnow {
+  background: #fbf9f9;
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 920px; }
+
+.goodKnow_box {
+  display: flex;
+  justify-content: center; }
+
+.goodKhow_title {
+  height: 28px;
+  margin: 83px auto 30px;
+  text-align: center;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2.7px; }
+
+.goodKhow_line {
+  width: 100px;
+  height: 3px;
+  background-color: #fedc00;
+  margin: 0 auto 64px; }
+
 .container {
   width: 100%;
   margin: 0 auto; }
@@ -87,7 +114,7 @@
 
 @media (min-width: 768px) {
   .container {
-    width: 740px; } }
+    width: 750px; } }
 
 @media (min-width: 1200px) {
   .container {
@@ -151,7 +178,7 @@
   .col-lg-1 {
     width: 8.333333333%; } }
 
-@media (min-width: 1500px) {
+@media (min-width: 1450px) {
   .col-xl-12 {
     width: 100%; }
   .col-xl-6 {
@@ -298,6 +325,91 @@ header {
   outline: none;
   border: none; }
 
+.advantages {
+  background: url("../../images/aboutUs/Фон.png");
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 850px;
+  padding-top: 169px; }
+
+.advantages_title {
+  height: 34px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  text-align: center; }
+
+.advantages_line {
+  width: 101px;
+  height: 3px;
+  background-color: #fedc00;
+  margin: 23px auto 41px; }
+
+.advantages_plus {
+  display: flex; }
+
+.advantages_plus-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 110px; }
+
+.advantages_block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 100px; }
+
+.advantages_item-time {
+  margin-right: 30px; }
+
+.advantages_icons-1 {
+  width: 113px;
+  height: 113px;
+  display: block;
+  margin: 25px auto 55px; }
+
+.advantages_icons-2 {
+  width: 116px;
+  height: 137px;
+  display: block;
+  margin: 0 auto 50px; }
+
+.advantages_icons-3 {
+  display: block;
+  width: 97px;
+  height: 127px;
+  margin: 0 auto 63px; }
+
+.advantages_icons-4 {
+  display: block;
+  width: 106px;
+  height: 120px;
+  margin: 0 auto 70px; }
+
+.advantages_icons-5 {
+  width: 131px;
+  height: 84px;
+  display: block;
+  margin: 25px auto 80px; }
+
+.advantages_icons-6 {
+  display: block;
+  width: 176px;
+  height: 122px;
+  margin: 0 auto 66px; }
+
+.advantages_info {
+  height: 14px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  text-align: center; }
+
 .work {
   background: url("../../images/ourWork/main_work.png");
   background-size: no-repeat;
@@ -380,6 +492,9 @@ header {
   font-weight: 400;
   letter-spacing: 1.99px;
   margin: 0 auto; }
+
+.work_img-5 {
+  padding: 0 57px; }
 
 .work_detail-name {
   height: 15px;
