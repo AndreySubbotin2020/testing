@@ -89,7 +89,9 @@
 
 .goodKnow_img {
   display: block;
-  width: 100%; }
+  width: 560px;
+  height: 281px;
+  margin: 0 auto; }
 
 .goodKhow_title {
   height: 28px;
@@ -108,7 +110,9 @@
   margin: 0 auto 64px; }
 
 .goodKnow_block-title {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  width: 560px;
+  margin: 0 auto; }
 
 .goodKhow_block-line {
   width: 100px;
@@ -118,16 +122,17 @@
 
 .goodKnow_block-text {
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: 'Helvetica Neue Cyr Thin';
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 1.8px;
   margin: 0 0 18px 29px; }
 
 .goodKnow_text-date {
   display: flex;
   justify-content: space-between;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: 'Helvetica Neue Cyr Thin';
+  font-weight: 700;
   padding: 0 0 29px 29px; }
 
 .goodKnow_text-arrow {
@@ -148,6 +153,24 @@
   letter-spacing: 1.79px;
   padding: 44px 0 42px 29px; }
 
+.goodKnow_articles {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 82px;
+  margin-top: 57px;
+  margin: 57px 82px 61px 0; }
+
+.goodKnow_arrow-big {
+  margin-left: 10px; }
+
+.goodKnow_articles-all {
+  height: 14px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  text-decoration: none; }
+
 .container {
   width: 100%;
   margin: 0 auto; }
@@ -161,18 +184,23 @@
   .container {
     width: 750px; } }
 
+@media (min-width: 992px) {
+  .container {
+    width: 975px; } }
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px; } }
 
-@media (min-width: 1450px) {
+@media (min-width: 1400px) {
   .container {
-    width: 1360px; } }
+    width: 1359px; } }
 
 .col-sm-12, .col-sm-6, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1,
 .col-md-12, .col-md-6, .col-md-4, .col-md-3, .col-md-2, .col-md-1,
-.col-lg-12, .col-lg-6, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1 {
-  float: left;
+.col-lg-12, .col-lg-6, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1,
+.col-xl-12, .col-xl-6, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1,
+.col-xxl-12, .col-xxl-6, .col-xxl-4, .col-xxl-3, .col-xxl-2, .col-xxl-1 {
   padding-left: 5px;
   padding-right: 5px;
   width: 100%; }
@@ -209,7 +237,7 @@
   .col-md-1 {
     width: 8.333333333%; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-12 {
     width: 100%; }
   .col-lg-6 {
@@ -223,7 +251,7 @@
   .col-lg-1 {
     width: 8.333333333%; } }
 
-@media (min-width: 1450px) {
+@media (min-width: 1200px) {
   .col-xl-12 {
     width: 100%; }
   .col-xl-6 {
@@ -235,6 +263,20 @@
   .col-xl-2 {
     width: 16.6666666%; }
   .col-xl-1 {
+    width: 8.333333333%; } }
+
+@media (min-width: 1400px) {
+  .col-xxl-12 {
+    width: 100%; }
+  .col-xxl-6 {
+    width: 50%; }
+  .col-xxl-4 {
+    width: 33.3333333333%; }
+  .col-xxl-3 {
+    width: 25%; }
+  .col-xxl-2 {
+    width: 16.6666666%; }
+  .col-xxl-1 {
     width: 8.333333333%; } }
 
 header {
@@ -455,6 +497,49 @@ header {
   letter-spacing: 1.8px;
   text-align: center; }
 
+.ourCoordinates {
+  padding: 107px 0 77px;
+  min-height: 1600px;
+  background-color: #ffffff; }
+
+.ourCoordinates_header {
+  height: 34px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2.69px;
+  margin: 0 auto;
+  text-align: center; }
+
+.ourCoordinates_line {
+  width: 100px;
+  height: 3px;
+  background-color: #fedc00;
+  margin: 29px auto 95px; }
+
+.ourCoordinates_adress {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center; }
+
+.ourCoordinates_adress-img {
+  margin: 0 24px 15px 70px; }
+
+.ourCoordinates_link {
+  margin: 3px 0 0 0;
+  height: 18px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Bold';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  text-decoration: none; }
+
+.ourCoordinates_map-img {
+  width: 100%;
+  min-height: 600px; }
+
 .work {
   background: url("../../images/ourWork/main_work.png");
   background-size: no-repeat;
@@ -539,7 +624,7 @@ header {
   margin: 0 auto; }
 
 .work_img-5 {
-  padding: 0 57px; }
+  margin: 0 53px; }
 
 .work_detail-name {
   height: 15px;
