@@ -291,25 +291,23 @@ header {
 
 .contacts {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none; }
 
-.contacts_list {
-  display: flex; }
-
 .contacts_img {
-  display: inline-block;
-  padding-right: 5px; }
+  margin-right: 10px; }
 
 .contacts_item-phone {
-  text-align: right;
-  margin-right: 20px; }
+  display: flex;
+  justify-content: center; }
 
 .contacts_item-adress {
-  margin-left: 20px; }
+  display: flex;
+  margin-left: 50px; }
 
 .contacts_item-email {
-  text-align: center; }
+  display: flex;
+  justify-content: center; }
 
 .contacts_link {
   color: #ffffff;
@@ -538,7 +536,66 @@ header {
 
 .ourCoordinates_map-img {
   width: 100%;
-  min-height: 600px; }
+  min-height: 600px;
+  padding-bottom: 117px;
+  /*footer*/ }
+
+.ourCoordinates_footer-logo {
+  margin: 0 auto;
+  margin-bottom: 45px; }
+
+.ourCoordinates_list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none; }
+
+.ourCoordinates_email-block {
+  padding: 30px 0; }
+
+.ourCoordinates_adress-box {
+  display: flex; }
+
+.ourCoordinates_adress-img-2 {
+  padding-right: 10px; }
+
+.courCoordinates_adress-link {
+  height: 19px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Thin';
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none; }
+
+.ourCoordinates_email-box {
+  display: flex; }
+
+.ourCoordinates_email-img {
+  padding-right: 10px; }
+
+.ourCoordinates_email-link {
+  height: 19px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Thin';
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none; }
+
+.ourCoordinates_phone-box {
+  display: flex; }
+
+.ourCoordinates_phone-img {
+  padding-right: 10px; }
+
+.ourCoordinates_phone-link {
+  height: 19px;
+  color: #000000;
+  font-family: 'Helvetica Neue Cyr Thin';
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none; }
 
 .work {
   background: url("../../images/ourWork/main_work.png");
