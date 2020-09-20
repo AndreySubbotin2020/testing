@@ -473,23 +473,30 @@ header {
   justify-content: space-between;
   list-style-type: none; }
 
-.contacts_img {
-  margin-right: 10px; }
-
-.contacts_item-phone {
-  display: flex;
-  justify-content: center;
-  line-height: 28px; }
-
 .contacts_item-adress {
   display: flex;
   margin-left: 50px;
   line-height: 25px; }
 
+.contacts_adress {
+  margin-right: 10px; }
+
 .contacts_item-email {
   display: flex;
   justify-content: center;
   line-height: 25px; }
+
+.contacts_email {
+  margin-right: 10px; }
+
+.contacts_item-phone {
+  display: flex;
+  justify-content: center;
+  line-height: 28px;
+  margin-right: 25px; }
+
+.contacts_phone {
+  margin-right: 10px; }
 
 .contacts_link {
   color: #ffffff;
@@ -499,10 +506,7 @@ header {
   text-decoration: none; }
 
 .menu {
-  padding-top: 30px; }
-
-.menu_box {
-  margin: 0 5px; }
+  padding-top: 20px; }
 
 .menu_navigations {
   display: flex;
@@ -602,7 +606,6 @@ header {
 
 .advantages_title {
   height: 34px;
-  color: #000000;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 36px;
   font-weight: 700;
@@ -670,7 +673,6 @@ header {
 
 .advantages_info {
   height: 14px;
-  color: #000000;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 18px;
   font-weight: 500;
@@ -780,12 +782,12 @@ header {
 
 .work_detail {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: 130px; }
 
 .work_detail-block {
   display: flex;
-  flex-direction: column;
-  margin: 0 auto; }
+  flex-direction: column; }
 
 .work_detail-form {
   display: flex;
@@ -837,7 +839,6 @@ header {
   background-color: #ffffff; }
 
 .work_detail-confidentiality {
-  width: 595px;
   height: 12px;
   color: #fffefe;
   font-family: 'Helvetica Neue Cyr Thin';
@@ -849,15 +850,12 @@ header {
 
 .work_detail-btn {
   display: block;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 0;
   width: 320px;
   height: 60px;
   background-color: #fedc00;
-  color: #000000;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 20px;
-  font-weight: 40000;
   letter-spacing: 1px;
   text-align: center;
   outline: none;
@@ -873,7 +871,6 @@ header {
 
 .product_list {
   height: 34px;
-  color: #000000;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 36px;
   font-weight: 700;
@@ -927,7 +924,6 @@ header {
   margin: 36px 0 0 53px; }
 
 .product_name {
-  color: #000000;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 30px;
   font-weight: 500;
@@ -935,7 +931,6 @@ header {
 
 .product_class {
   height: 15px;
-  color: #000000;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 20px;
   font-weight: 500;
@@ -956,11 +951,9 @@ header {
 .product_btn-info {
   display: block;
   margin: 83px auto 86px;
-  height: 19px;
   color: #fedc00;
   font-family: 'Helvetica Neue Cyr Bold';
   font-size: 20px;
-  font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
   width: 320px;
