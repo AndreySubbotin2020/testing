@@ -18,7 +18,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-photo_about_Us {
   background-image: url(sprite_img.png);
-  background-position: -3840px -2400px;
+  background-position: -3840px -2919px;
   width: 590px;
   height: 590px;
 }
@@ -30,25 +30,25 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-3-layers {
   background-image: url(sprite_img.png);
-  background-position: -4430px -2400px;
+  background-position: -4430px -2919px;
   width: 560px;
   height: 580px;
 }
 .icon-arrowMin2x {
   background-image: url(sprite_img.png);
-  background-position: -5660px -2925px;
+  background-position: -5611px -2608px;
   width: 42px;
   height: 18px;
 }
 .icon-beton {
   background-image: url(sprite_img.png);
-  background-position: -3840px -2990px;
+  background-position: -5051px -2400px;
   width: 560px;
   height: 281px;
 }
 .icon-fon {
   background-image: url(sprite_img.png);
-  background-position: -4990px -2400px;
+  background-position: -4990px -2919px;
   width: 560px;
   height: 580px;
 }
@@ -60,25 +60,25 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-line {
   background-image: url(sprite_img.png);
-  background-position: -5660px -2943px;
+  background-position: -5653px -2608px;
   width: 100px;
   height: 4px;
 }
 .icon-properties_betona {
   background-image: url(sprite_img.png);
-  background-position: -4400px -2990px;
+  background-position: -3840px -3509px;
   width: 560px;
   height: 281px;
 }
 .icon-burger_main {
   background-image: url(sprite_img.png);
-  background-position: -5550px -2846px;
+  background-position: -5645px -2681px;
   width: 110px;
   height: 110px;
 }
 .icon-logo_main {
   background-image: url(sprite_img.png);
-  background-position: -5300px -2990px;
+  background-position: -5391px -2681px;
   width: 254px;
   height: 139px;
 }
@@ -96,37 +96,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-a1 {
   background-image: url(sprite_img.png);
-  background-position: -3840px -3621px;
+  background-position: -5611px -2400px;
   width: 160px;
   height: 208px;
 }
 .icon-a2 {
   background-image: url(sprite_img.png);
-  background-position: -5550px -2400px;
+  background-position: -5550px -2919px;
   width: 207px;
   height: 245px;
 }
 .icon-a3 {
   background-image: url(sprite_img.png);
-  background-position: -5554px -2990px;
+  background-position: -4647px -3509px;
   width: 216px;
   height: 139px;
 }
 .icon-a4 {
   background-image: url(sprite_img.png);
-  background-position: -5550px -2645px;
+  background-position: -5550px -3164px;
   width: 201px;
   height: 201px;
 }
 .icon-a5 {
   background-image: url(sprite_img.png);
-  background-position: -5200px -3271px;
+  background-position: -4400px -3509px;
   width: 247px;
   height: 172px;
 }
 .icon-a6 {
   background-image: url(sprite_img.png);
-  background-position: -4000px -3621px;
+  background-position: -5200px -3790px;
   width: 166px;
   height: 187px;
 }
@@ -138,67 +138,97 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-znak_dostavka {
   background-image: url(sprite_img.png);
-  background-position: -5660px -2846px;
+  background-position: -5550px -3365px;
   width: 115px;
   height: 79px;
 }
 .icon-znak_oplata {
   background-image: url(sprite_img.png);
-  background-position: -5131px -3150px;
+  background-position: -5034px -3509px;
   width: 82px;
   height: 82px;
 }
 .icon-znak_proizvodstvo {
   background-image: url(sprite_img.png);
-  background-position: -5048px -3150px;
+  background-position: -4951px -3509px;
   width: 83px;
   height: 82px;
 }
 .icon-znak_raschet {
   background-image: url(sprite_img.png);
-  background-position: -4960px -3150px;
+  background-position: -4863px -3509px;
   width: 88px;
   height: 86px;
 }
 .icon-znak_zaayvka {
   background-image: url(sprite_img.png);
-  background-position: -5213px -3150px;
+  background-position: -5051px -2841px;
   width: 78px;
   height: 78px;
 }
+.icon-fon {
+  background-image: url(sprite_img.png);
+  background-position: -3840px -2400px;
+  width: 684px;
+  height: 519px;
+}
+.icon-foto_1 {
+  background-image: url(sprite_img.png);
+  background-position: -5366px -3790px;
+  width: 158px;
+  height: 173px;
+}
+.icon-mainDrawing {
+  background-image: url(sprite_img.png);
+  background-position: -4524px -2400px;
+  width: 527px;
+  height: 519px;
+}
+.icon-photo_2 {
+  background-image: url(sprite_img.png);
+  background-position: -5524px -3790px;
+  width: 158px;
+  height: 173px;
+}
+.icon-photo_3 {
+  background-image: url(sprite_img.png);
+  background-position: -3840px -4140px;
+  width: 158px;
+  height: 173px;
+}
 .icon-cherta {
   background-image: url(sprite_img.png);
-  background-position: -5660px -2947px;
+  background-position: -5653px -2612px;
   width: 100px;
   height: 3px;
 }
 .icon-foto_kamienie {
   background-image: url(sprite_img.png);
-  background-position: -3840px -3271px;
+  background-position: -3840px -3790px;
   width: 340px;
   height: 350px;
 }
 .icon-photo_beton {
   background-image: url(sprite_img.png);
-  background-position: -4180px -3271px;
+  background-position: -4180px -3790px;
   width: 340px;
   height: 350px;
 }
 .icon-photo_grout {
   background-image: url(sprite_img.png);
-  background-position: -4520px -3271px;
+  background-position: -4520px -3790px;
   width: 340px;
   height: 350px;
 }
 .icon-photo_ring {
   background-image: url(sprite_img.png);
-  background-position: -4860px -3271px;
+  background-position: -4860px -3790px;
   width: 340px;
   height: 350px;
 }
 .icon-plashka {
   background-image: url(sprite_img.png);
-  background-position: -4960px -2990px;
+  background-position: -5051px -2681px;
   width: 340px;
   height: 160px;
 }

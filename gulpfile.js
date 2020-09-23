@@ -126,7 +126,8 @@ gulp.task('icons_min', function () {
  task('server', () => {
     browserSync.init({
         server: {
-            baseDir: "./dist" //Указываем директорию где обрабатываются наши файлы
+            baseDir: "./dist",
+            directory: true //Указываем директорию где обрабатываются наши файлы
         }  
     });  
 });
