@@ -12,7 +12,7 @@
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.7px;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   margin: 140px 0 0 0;
   text-align: center; }
 
@@ -30,8 +30,7 @@
   padding-top: 103px; }
 
 .aboutUs_content {
-  color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 18px;
   letter-spacing: 1.8px;
   margin-right: 84px;
@@ -110,7 +109,7 @@
 .footer_adress-link {
   height: 19px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -128,7 +127,7 @@
 .footer_email-link {
   height: 19px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -143,7 +142,7 @@
 .footer_phone-link {
   height: 19px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 20px;
   letter-spacing: 1px;
   text-decoration: none; }
@@ -155,7 +154,7 @@
 .footer_home {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px; }
 
@@ -165,14 +164,14 @@
 .footer_beton-list {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px;
   padding: 54px 0 41px 0; }
 
 .footer_item {
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-weight: 700;
   font-size: 16px;
   line-height: 33px;
@@ -181,7 +180,7 @@
 .footer_confidentiality {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 14px;
   font-weight: 700;
   line-height: 33.03px;
@@ -195,14 +194,14 @@
 .footer_price-list {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px; }
 
 .footer_solution-list {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px;
   padding: 54px 0 41px 0; }
@@ -217,7 +216,7 @@
 .footer_vacancies {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px; }
 
@@ -227,7 +226,7 @@
 .footer_products-list {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px;
   padding: 54px 0 41px 0; }
@@ -235,7 +234,7 @@
 .footer_development {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 14px;
   font-weight: 700;
   line-height: 33.03px;
@@ -249,14 +248,14 @@
 .footer_contacts {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px; }
 
 .footer_rubble-list {
   height: 13px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 16px;
   letter-spacing: 1.6px;
   padding: 54px 0 41px 0; }
@@ -285,7 +284,7 @@
   height: 28px;
   text-align: center;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.7px;
@@ -310,7 +309,7 @@
 
 .goodKnow_block-text {
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1.8px;
@@ -319,7 +318,7 @@
 .goodKnow_text-date {
   display: flex;
   justify-content: space-between;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-weight: 700;
   padding: 0 0 29px 29px; }
 
@@ -327,15 +326,13 @@
   margin-right: 20px; }
 
 .goodKnow_arrow-img {
-  width: 21px;
   height: 9px;
   color: #010101;
   font-size: 18px; }
 
 .goodKnow_block-lable {
   height: 14px;
-  color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1.79px;
@@ -354,7 +351,7 @@
 .goodKnow_articles-all {
   height: 14px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 18px;
   letter-spacing: 1.8px;
   text-decoration: none; }
@@ -474,7 +471,7 @@ header {
   background-position: center;
   min-height: 900px;
   background-color: rgba(0, 0, 0, 0.5);
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   padding-top: 20px; }
 
 .contacts {
@@ -545,14 +542,14 @@ header {
   color: #ffffff;
   font-weight: 400;
   letter-spacing: 4.69px;
-  font-family: 'Helvetica Neue Cyr Black';
+  font-family: "Helvetica Neue Cyr Black";
   text-align: center; }
 
 .promo_overpay {
   margin: 37px auto 0;
   height: 33px;
   color: #ffffff;
-  font-family: 'Helvetica Neue Cyr Black';
+  font-family: "Helvetica Neue Cyr Black";
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 4.69px;
@@ -561,7 +558,7 @@ header {
 .promo_sity {
   height: 22px;
   color: #ffffff;
-  font-family: 'Helvetica Neue Cyr Black';
+  font-family: "Helvetica Neue Cyr Black";
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -582,7 +579,7 @@ header {
 .promo_operating-mode {
   height: 18px;
   color: #ffffff;
-  font-family: 'Helvetica Neue Cyr Black';
+  font-family: "Helvetica Neue Cyr Black";
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1.35px;
@@ -615,7 +612,7 @@ header {
 
 .advantages_title {
   height: 34px;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 3.6px;
@@ -682,7 +679,7 @@ header {
 
 .advantages_info {
   height: 14px;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1.8px;
@@ -696,7 +693,7 @@ header {
 .ourCoordinates_header {
   height: 34px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.69px;
@@ -721,7 +718,7 @@ header {
   margin: 3px 0 0 0;
   height: 18px;
   color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.9px;
@@ -746,7 +743,7 @@ header {
   margin: 0 auto;
   text-align: center;
   color: #ffffff;
-  font-family: 'Helvetica Neue Cyr Black';
+  font-family: "Helvetica Neue Cyr Black";
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.7px; }
@@ -873,7 +870,7 @@ header {
 .productCards_lable {
   height: 19px;
   color: #ffffff;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 20px;
   letter-spacing: 2.03px;
   padding-top: 71px;
@@ -882,7 +879,7 @@ header {
 .productCards_title {
   height: 28px;
   color: #fffefe;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.71px;
@@ -920,8 +917,7 @@ header {
 
 .productCards_list {
   height: 17px;
-  color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -931,8 +927,7 @@ header {
 
 .productCards_list-type {
   height: 17px;
-  color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.45px;
@@ -944,8 +939,7 @@ header {
   bottom: 16px; }
 
 .productCards_btn {
-  color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 20px;
   letter-spacing: 1px;
   width: 320px;
@@ -955,7 +949,7 @@ header {
 
 /*------productApplication------------*/
 .productApplication {
-  background-color: #ffffff; }
+  background-color: #fbf9f9; }
 
 .productApplication_block {
   display: flex;
@@ -963,8 +957,7 @@ header {
 
 .productApplication_header {
   height: 26px;
-  color: #000000;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.7px;
@@ -979,13 +972,47 @@ header {
 
 .productApplication_text {
   width: 919px;
-  color: #000000;
-  font-family: 'Helvetica Neue Cyr Thin';
+  font-family: "Helvetica Neue Cyr Thin";
   font-size: 18px;
   font-weight: 700;
   line-height: 29.99px;
   letter-spacing: 0.45px;
   margin: 30px 0 0 150px; }
+
+/*productClass*/
+.productClass {
+  background-color: #fbf9f9;
+  padding: 135px  0 115px 0; }
+
+.productClass_header {
+  font-family: "Helvetica Neue Cyr Bold";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2.71px;
+  text-align: center; }
+
+.productClass_line {
+  width: 101px;
+  height: 3px;
+  background-color: #fedc00;
+  margin: 38px auto 0; }
+
+.productClass_box {
+  padding-top: 83px; }
+
+.productClass_btn {
+  font-family: "Helvetica Neue Cyr Bold";
+  font-size: 20px;
+  letter-spacing: 1px;
+  width: 320px;
+  height: 60px;
+  background-color: #fedc00;
+  border: none; }
+
+.productClass_btn-block {
+  display: flex;
+  justify-content: center;
+  margin: 189px 0 0 9px; }
 
 .product {
   min-height: 890px;
@@ -997,7 +1024,7 @@ header {
 
 .product_list {
   height: 34px;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 2.7px;
@@ -1010,54 +1037,46 @@ header {
   background: url("../../images/productCatalog/photo_beton.png");
   background-size: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
-  min-height: 350px; }
+  background-position: center; }
 
 .product_background-2 {
   background: url("../../images/productCatalog/photo_grout.png");
   background-size: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
-  min-height: 350px; }
+  background-position: center; }
 
 .product_background-3 {
   background: url("../../images/productCatalog/photo_ring.png");
   background-size: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
-  min-height: 350px; }
+  background-position: center; }
 
 .product_background-4 {
   background: url("../../images/productCatalog/foto_kamienie.png");
   background-size: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
-  min-height: 350px; }
+  background-position: center; }
 
 .product_info {
   display: flex; }
 
 .product_block {
   width: 100%;
-  margin-top: 232px;
+  margin-top: 190px;
   background: rgba(154, 155, 154, 0.8); }
 
 .product_block-box {
   margin: 36px 0 0 53px; }
 
 .product_name {
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 1.5px; }
 
 .product_class {
   height: 15px;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -1078,7 +1097,7 @@ header {
   display: block;
   margin: 83px auto 86px;
   color: #fedc00;
-  font-family: 'Helvetica Neue Cyr Bold';
+  font-family: "Helvetica Neue Cyr Bold";
   font-size: 20px;
   letter-spacing: 1px;
   text-align: center;
